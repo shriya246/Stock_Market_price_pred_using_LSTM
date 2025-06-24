@@ -24,3 +24,22 @@ This notebook demonstrates:
    ```bash
    git clone https://github.com/shriya246/Stock_Market_price_pred_using_LSTM.git
    cd Stock_Market_price_pred_using_LSTM
+
+2. Install dependencies
+     ```bash
+   pip install -r requirements.txt
+3. Run the notebook: Open Stock_Market_price_pred_using_LSTM.ipynb in Jupyter Notebook or Google Colab and run all cells.
+   
+📊 Results:
+The LSTM model is trained to predict future stock closing prices based on past trends. Final visualizations show close alignment between predicted and actual prices.
+
+📁 Folder Structure:
+.
+├── data/                 # Optional: input CSV files
+├── images/               # Graphs and visualizations
+├── Stock_Market_price_pred_using_LSTM.ipynb
+├── requirements.txt
+└── README.md
+
+📜 License: This project is open-source and available under the MIT License.
+
